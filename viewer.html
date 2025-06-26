@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Custom PDF Viewer</title>
+  <style>
+    body { margin: 0; background: #333; color: white; }
+    #pdf-container { display: flex; flex-wrap: wrap; justify-content: center; }
+    canvas { margin: 10px; box-shadow: 0 0 10px #000; }
+  </style>
+</head>
+<body>
+  <div id="pdf-container"></div>
+  <script src="pdf.js"></script>
+  <script src="pdf.worker.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>
